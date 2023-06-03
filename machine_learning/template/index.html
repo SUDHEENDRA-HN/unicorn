@@ -1,0 +1,22 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>titanic</title>
+  </head>
+  <body>
+    <h1>machine learning</h1>
+    <h3>enter details</h3>
+    <p> we will predict the probability</p>
+    <form action="{% url 'result' %}">
+    <input type="text" name="age"></input>
+    <input type="text" name="pclass"></input>
+    <input type="text" name="sex"></input>
+    <input type="text" name="sibsp"></input>
+    <input type="text" name="parch"></input>
+    <input type="text" name="fare"></input>
+    <input type="text" name="embarked"></input>
+    <input type="submit"></input>
+    </form>
+  </body>
+</html>
